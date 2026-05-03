@@ -122,6 +122,7 @@ class calculator extends JFrame implements ActionListener {
         f.setSize(200, 220);
         f.show();
     }
+    // added actionPerformed
     public void actionPerformed(ActionEvent e)
     {
         String s = e.getActionCommand();
