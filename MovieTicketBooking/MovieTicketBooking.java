@@ -1,8 +1,8 @@
-
+// this is movieticektbookig system
+import java.awt.*;
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.*;
 
 public class MovieTicketBooking extends JFrame {
     JComboBox<String> movieBox = new JComboBox<>(new String[]{
